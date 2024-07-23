@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de Datos</title>
+    <link rel="stylesheet" href="../assets/css/data-entry.css">
+</head>
+<body>
+    <div class="data-entry-container">
+        <h2>Carga de Datos</h2>
+        <form id="data-entry-form">
+            <label for="empresa">Empresa:</label>
+            <input type="text" id="empresa" name="empresa" required>
+            
+            <label for="art">ART:</label>
+            <input type="text" id="art" name="art" required>
+            
+            <label for="fecha-art">Fecha ART:</label>
+            <input type="date" id="fecha-art" name="fecha-art" required>
+            
+            <label for="svo">S.V.O (Seguro Obligatorio de Vida):</label>
+            <input type="text" id="svo" name="svo" required>
+            
+            <label for="fecha-svo">Fecha S.V.O:</label>
+            <input type="date" id="fecha-svo" name="fecha-svo" required>
+            
+            <label for="prog-seg">PROG, SEG (Programa de Seguridad):</label>
+            <input type="text" id="prog-seg" name="prog-seg" required>
+            
+            <label for="fecha-prog-seg">Fecha PROG, SEG:</label>
+            <input type="date" id="fecha-prog-seg" name="fecha-prog-seg" required>
+            
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+    <script src="../assets/js/data-entry.js"></script>
+</body>
+</html>
